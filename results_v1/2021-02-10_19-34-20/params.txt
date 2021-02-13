@@ -1,0 +1,4 @@
+train_mobile_raw.py --dataroot /home/wangchunyu/PyTorch-Spiking-YOLOv3-ultralytics/data/imagenet/ --gpus 6 --resume ./results_v1/2021-02-10_15-14-13/checkpoint.pth.tar
+Namespace(batch_size=64, clr=False, dataroot='/home/wangchunyu/PyTorch-Spiking-YOLOv3-ultralytics/data/imagenet/', decay=4e-05, epochs=400, epochs_per_step=20, evaluate=False, find_clr=False, gamma=0.1, gpus=[6], input_size=224, learning_rate=0.01, log_interval=100, max_lr=1, min_lr=1e-05, mode='triangular2', momentum=0.9, results_dir='./results_v1', resume='./results_v1/2021-02-10_15-14-13/checkpoint.pth.tar', save='2021-02-10_19-34-20', scaling=1, schedule=[200, 300], seed=3232, start_epoch=0, type='float32', workers=8)
+Claimed accuracies are: 71.80% top-1, 91.00% top-5
+Best accuracy is 62.20% top-1
